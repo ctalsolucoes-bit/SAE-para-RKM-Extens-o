@@ -1,0 +1,37 @@
+Política de Privacidade - Automação SAE Inteligente
+
+Última atualização: 04 de Fevereiro de 2026
+
+Esta Política de Privacidade descreve como a extensão Automação SAE - Conecta SUS trata as informações dos utilizadores.
+
+1. Coleta de Informações
+
+A extensão não coleta, armazena ou transmite quaisquer dados pessoais identificáveis para servidores externos, exceto conforme descrito abaixo:
+
+Dados de Texto: O texto inserido no campo "Histórico de Enfermagem" é enviado temporariamente via API para o modelo Gemini (Google) apenas para fins de processamento e geração do Plano de Cuidados (SAE). Estes dados não são salvos pela extensão.
+
+2. Uso de Dados
+
+Os dados processados destinam-se exclusivamente a:
+
+Automatizar a redação de diagnósticos, planeamento e implementação de enfermagem dentro do sistema Conecta SUS.
+
+Melhorar a eficiência do fluxo de trabalho do enfermeiro.
+
+3. Armazenamento
+
+Não utilizamos bases de dados externas.
+
+Não existem registos (logs) de pacientes armazenados localmente ou na nuvem através desta extensão.
+
+4. Segurança
+
+A comunicação com a API de Inteligência Artificial é feita através de protocolos seguros (HTTPS). Recomendamos que o utilizador não insira dados nominais (nomes completos) de pacientes no campo de histórico, utilizando apenas as informações clínicas necessárias para a assistência.
+
+5. Permissões do Chrome
+
+activeTab / scripting: Necessárias para injetar o botão de assistência e preencher os campos de texto no sistema Conecta SUS.
+
+host_permissions: Necessárias para permitir a comunicação técnica entre o navegador e a API de processamento de linguagem natural.
+
+Contacto: [Inserir o seu e-mail de desenvolvedor aqui]
